@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Rovers Irish Pub</title>
 
     <link rel="stylesheet" href="style.css">
@@ -12,13 +14,38 @@
 
 <body class="home-page">
 
-<div class="home-overlay">
+    <!-- Dil Seçici -->
+    <div class="language-selector">
 
-    <button onclick="location.href='menu.html'">
-        MENÜYE GİR
-    </button>
+        <button type="button" id="languageButton">
+            🌐 <span id="selectedLanguage">Türkçe</span> ▼
+        </button>
 
-</div>
+        <div id="languageList" class="language-list">
+
+            <div class="language-item" data-lang="tr">🇹🇷 Türkçe</div>
+            <div class="language-item" data-lang="en">🇬🇧 English</div>
+            <div class="language-item" data-lang="fr">🇫🇷 Français</div>
+            <div class="language-item" data-lang="it">🇮🇹 Italiano</div>
+            <div class="language-item" data-lang="ru">🇷🇺 Русский</div>
+            <div class="language-item" data-lang="fa">🇮🇷 فارسی</div>
+            <div class="language-item" data-lang="es">🇪🇸 Español</div>
+
+        </div>
+
+    </div>
+
+    <!-- Ana Sayfa -->
+    <div class="home-overlay">
+
+        <button id="enterButton" type="button" onclick="window.location.href='menu.html'">
+            MENÜYE GİR
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
