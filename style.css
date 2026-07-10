@@ -223,3 +223,116 @@ width:250px;
 }
 
 }
+
+/* ========================= */
+/* DİL SEÇİCİ */
+/* ========================= */
+
+.language-selector{
+    position:fixed;
+    top:20px;
+    right:20px;
+    z-index:9999;
+}
+
+#languageButton{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    background:rgba(20,20,20,.85);
+    color:white;
+    border:1px solid #D4AF37;
+    border-radius:12px;
+    padding:12px 18px;
+    font-size:16px;
+    cursor:pointer;
+    backdrop-filter:blur(12px);
+    transition:.3s;
+}
+
+#languageButton:hover{
+    background:#D4AF37;
+    color:#111;
+}
+
+.language-list{
+
+    display:none;
+
+    position:absolute;
+
+    right:0;
+
+    margin-top:10px;
+
+    width:220px;
+
+    background:rgba(15,15,15,.95);
+
+    border:1px solid rgba(212,175,55,.5);
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    backdrop-filter:blur(15px);
+
+    box-shadow:0 0 20px rgba(0,0,0,.4);
+
+}
+
+.language-item{
+
+    padding:14px 18px;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    font-size:16px;
+
+}
+
+.language-item:hover{
+
+    background:#D4AF37;
+
+    color:#111;
+
+}
+
+.language-list.active{
+
+    display:block;
+
+}
+
+/* Telefon */
+
+@media(max-width:768px){
+
+.language-selector{
+
+top:15px;
+
+right:15px;
+
+}
+
+#languageButton{
+
+padding:10px 15px;
+
+font-size:15px;
+
+}
+
+.language-list{
+
+width:190px;
+
+}
+
+}
