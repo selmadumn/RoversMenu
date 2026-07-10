@@ -2,115 +2,91 @@
 <html lang="tr">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rovers Menü</title>
 
-<title>Rovers Menü</title>
+    <link rel="stylesheet" href="style.css">
 
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body class="menu-page">
 
-    <!-- Dil Seçici -->
-<div class="language-selector">
+    <!-- Arka Plan -->
+    <div class="background-overlay"></div>
 
-    <button id="languageButton">
-        🌐 <span id="selectedLanguage">Türkçe</span>
-        ▼
-    </button>
+    <!-- Logo -->
+    <div class="logo-bg">
+        <img src="images/logo.jpeg" alt="Rovers Logo">
+    </div>
 
-    <div id="languageList" class="language-list">
+    <!-- Menü -->
+    <div class="container">
 
-        <div class="language-item" data-lang="tr">🇹🇷 Türkçe</div>
+        <h1 id="title">ROVERS IRISH PUB</h1>
 
-        <div class="language-item" data-lang="en">🇬🇧 English</div>
+        <p id="subtitle">Dijital Menü</p>
 
-        <div class="language-item" data-lang="fr">🇫🇷 Français</div>
+        <div class="menu-grid">
 
-        <div class="language-item" data-lang="it">🇮🇹 Italiano</div>
+            <a href="#" class="card">
+                <div class="icon">🍕</div>
+                <span id="pizza">Pizzalar</span>
+            </a>
 
-        <div class="language-item" data-lang="ru">🇷🇺 Русский</div>
+            <a href="#" class="card">
+                <div class="icon">🍔</div>
+                <span id="burger">Burgerler</span>
+            </a>
 
-        <div class="language-item" data-lang="fa">🇮🇷 فارسی</div>
+            <a href="#" class="card">
+                <div class="icon">🍝</div>
+                <span id="pasta">Makarnalar</span>
+            </a>
 
-        <div class="language-item" data-lang="es">🇪🇸 Español</div>
+            <a href="#" class="card">
+                <div class="icon">🥩</div>
+                <span id="main">Ana Yemekler</span>
+            </a>
+
+            <a href="#" class="card">
+                <div class="icon">🥗</div>
+                <span id="salad">Salatalar</span>
+            </a>
+
+            <a href="#" class="card">
+                <div class="icon">🍟</div>
+                <span id="snack">Atıştırmalıklar</span>
+            </a>
+
+            <a href="#" class="card">
+                <div class="icon">🍺</div>
+                <span id="beer">Biralar</span>
+            </a>
+
+            <a href="#" class="card">
+                <div class="icon">🍷</div>
+                <span id="wine">Şaraplar</span>
+            </a>
+
+            <a href="#" class="card">
+                <div class="icon">🍸</div>
+                <span id="cocktail">Kokteyller</span>
+            </a>
+
+            <a href="#" class="card">
+                <div class="icon">☕</div>
+                <span id="coffee">Kahveler</span>
+            </a>
+
+        </div>
 
     </div>
 
-</div>
-
-<div class="background-overlay"></div>
-
-<div class="logo-bg">
-    <img src="images/logo.jpeg" alt="Logo">
-</div>
-
-<div class="container">
-
-<h1 id="title">ROVERS IRISH PUB</h1>
-
-<p id="subtitle">Dijital Menü</p>
-
-<div class="menu-grid">
-
-<a href="#" class="card">
-<div class="icon">🍕</div>
-<span id="pizza">Pizzalar</span>
-</a>
-
-<a href="#" class="card">
-<div class="icon">🍔</div>
-<span id="burger">Burgerler</span>
-</a>
-
-<a href="#" class="card">
-<div class="icon">🍝</div>
-<span id="pasta">Makarnalar</span>
-</a>
-
-<a href="#" class="card">
-<div class="icon">🥩</div>
-<span id="main">Ana Yemekler</span>
-</a>
-
-<a href="#" class="card">
-<div class="icon">🥗</div>
-<span id="salad">Salatalar</span>
-</a>
-
-<a href="#" class="card">
-<div class="icon">🍟</div>
-<span id="snack">Atıştırmalıklar</span>
-</a>
-
-<a href="#" class="card">
-<div class="icon">🍺</div>
-<span id="beer">Biralar</span>
-</a>
-
-<a href="#" class="card">
-<div class="icon">🍷</div>
-<span id="wine">Şaraplar</span>
-</a>
-
-<a href="#" class="card">
-<div class="icon">🍸</div>
-<span id="cocktail">Kokteyller</span>
-</a>
-
-<a href="#" class="card">
-<div class="icon">☕</div>
-<span id="coffee">Kahveler</span>
-</a>
-
-</div>
-
-</div>
-
-<script src="script.js"></script>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 
 </body>
+
 </html>
