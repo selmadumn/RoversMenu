@@ -13,8 +13,30 @@
 
 <body class="menu-page">
 
+    <!-- Dil Seçici -->
+    <div class="language-selector">
+
+        <button type="button" id="languageButton">
+            🌐 <span id="selectedLanguage">Türkçe</span> ▼
+        </button>
+
+        <div id="languageList" class="language-list">
+
+            <div class="language-item" data-lang="tr">🇹🇷 Türkçe</div>
+            <div class="language-item" data-lang="en">🇬🇧 English</div>
+            <div class="language-item" data-lang="fr">🇫🇷 Français</div>
+            <div class="language-item" data-lang="it">🇮🇹 Italiano</div>
+            <div class="language-item" data-lang="ru">🇷🇺 Русский</div>
+            <div class="language-item" data-lang="fa">🇮🇷 فارسی</div>
+            <div class="language-item" data-lang="es">🇪🇸 Español</div>
+
+        </div>
+
+    </div>
+
     <!-- Arka Plan -->
     <div class="background-overlay"></div>
+
 
     <!-- Logo -->
     <div class="logo-bg">
@@ -79,6 +101,11 @@
                 <div class="icon">☕</div>
                 <span id="coffee">Kahveler</span>
             </a>
+
+            <a href="#" class="card">
+    <div class="icon">🥃</div>
+    <span id="spirits">Ağır Alkoller</span>
+</a>
 
         </div>
 
