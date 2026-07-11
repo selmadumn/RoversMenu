@@ -26,6 +26,7 @@ document.addEventListener("click", function () {
 const languageNames = {
     tr: "Türkçe",
     en: "English",
+    de: "Deutsch",
     fr: "Français",
     it: "Italiano",
     ru: "Русский",
@@ -38,6 +39,7 @@ const translations = {
     tr: {
         subtitle: "Dijital Menü",
         enterButton: "MENÜYE GİR",
+        campaign: "Kampanyalar",
         pizza: "Pizzalar",
         burger: "Burgerler",
         pasta: "Makarnalar",
@@ -53,6 +55,7 @@ const translations = {
     en: {
         subtitle: "Digital Menu",
         enterButton: "ENTER MENU",
+        campaign: "Campaigns",
         pizza: "Pizzas",
         burger: "Burgers",
         pasta: "Pasta",
@@ -65,9 +68,28 @@ const translations = {
         coffee: "Coffees",
         spirits: "Spirits"
     },
+
+    de: {
+        subtitle: "Digitales Menü",
+        enterButton: "MENÜ BETRETEN",
+        campaign: "Angebote",
+        pizza: "Pizzas",
+        burger: "Burgers",
+        pasta: "Pasta",
+        main: "Hauptgerichte",
+        salad: "Salate",
+        snack: "Snacks",
+        beer: "Biere",
+        wine: "Weine",
+        cocktail: "Cocktails",
+        coffee: "Kaffees",
+        spirits: "Spirituosen"
+    },
+
     fr: {
         subtitle: "Menu Numérique",
         enterButton: "ENTRER DANS LE MENU",
+        campaign: "Promotions",
         pizza: "Pizzas",
         burger: "Burgers",
         pasta: "Pâtes",
@@ -83,6 +105,7 @@ const translations = {
     it: {
         subtitle: "Menu Digitale",
         enterButton: "ENTRA NEL MENU",
+        campaign: "Promozioni",
         pizza: "Pizze",
         burger: "Hamburger",
         pasta: "Pasta",
@@ -98,6 +121,7 @@ const translations = {
     ru: {
         subtitle: "Цифровое Меню",
         enterButton: "ВОЙТИ В МЕНЮ",
+        campaign: "Акции",
         pizza: "Пицца",
         burger: "Бургеры",
         pasta: "Паста",
@@ -113,6 +137,7 @@ const translations = {
     fa: {
         subtitle: "منوی دیجیتال",
         enterButton: "ورود به منو",
+        campaign: "پیشنهادهای ویژه",
         pizza: "پیتزا",
         burger: "برگر",
         pasta: "پاستا",
@@ -128,6 +153,7 @@ const translations = {
     es: {
         subtitle: "Menú Digital",
         enterButton: "ENTRAR AL MENÚ",
+        campaign: "Promociones",
         pizza: "Pizzas",
         burger: "Hamburguesas",
         pasta: "Pastas",
